@@ -22,9 +22,9 @@ class Solution {
         }
         head = temp;
         i = i / 2;
-        int j = 1;
+        int j = 0;
         
-        while(j<i){
+        while(j<i-1){
             temp = temp.next;
             j++;
         }
