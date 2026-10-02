@@ -6,7 +6,7 @@ public:
         }
         int i = 0;
         int len = haystack.length();
-        while(i<len){
+        while(i<=len - needle.length()){
             if(haystack.substr(i,needle.length()) == needle){
                 return i;
             }
